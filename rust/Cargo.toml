@@ -1,0 +1,12 @@
+[package]
+name = "is_bree"
+version = "0.1.0"
+authors = ["brecert <11599528+Brecert@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+datetime = "0.5.1"
+argopt = "0.1.1"
+structopt = "0.3.20"
