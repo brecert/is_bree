@@ -15,3 +15,6 @@ dist/bree-1.0-py3-none-any.whl : bree/__init__.py bree/is_bree.py README.md
 clean :
 	$(RMTREE) build
 	$(RMTREE) bree.egg-info
+
+test :
+	$(PYTHON) -m unittest
