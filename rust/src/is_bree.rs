@@ -47,7 +47,7 @@ fn test() {
             true,
         ),
         (
-            "second frdiay, march, leap year (1)",
+            "second friday, march, leap year (1)",
             LocalDate::ymd(2020, Month::March, 13),
             false,
         ),
